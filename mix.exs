@@ -22,14 +22,14 @@ defmodule OneSignal.Mixfile do
      mod: {OneSignal, []}]
   end
 
-  defp package do
+  defp package() do
     [maintainers: ["Takuma Yoshida"],
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/yoavlt/one_signal"},
     ]
   end
 
-  defp deps do
+  defp deps() do
     [
       {:poison, "~> 1.5"},
       {:httpoison, "~> 0.9.0"},
